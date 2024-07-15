@@ -1,36 +1,57 @@
 * {
     /* Свойства для сброса начальных стилей элементов */
+    margin: 0;
+    /* внешние отступы */
+    padding: 0;
+    /* внутренние отступы */
+    box-sizing: border-box;
+    /* границы и внутренние отступы теперь не увеличивают размер элементов */
 }
 
 body {}
 
 header {
     /* Стили для хедера */
+    background: rgb(66, 132, 255);
+    height: 40px;
+    padding: 10px 0px;
 }
 
 header span {
     /* Стили для текста в хедере IT-INCUBATOR */
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white; 
 }
 
 .main-section {
     /* Стили для первой секции */
+    padding: 20px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .main-title {
     /* Стили для заголовка в первой секции */
+    font-size: 35px;
 }
 
 .main-text {
     /* Стили для текста в первой секции */
+    font-size: smaller;
 }
 
 .main-image {
     /* Стили для изображения в первой секции */
+    display: block;
+    width: 100%;
+    object-fit: contain;
 }
 
 
 .about-section {
     /* Стили для второй секции */
+    padding: 20px;
 }
 
 select {
