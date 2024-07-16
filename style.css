@@ -66,6 +66,7 @@ select {
     border-radius: 3px;
     padding: 5px 50px 5px 10px;
     font-weight: normal;
+    background-repeat: no-repeat;
 }
 
 .section-title {
@@ -75,7 +76,7 @@ select {
     margin-bottom: 25px;
 }
 
-.skill-list {
+.skills-list {
     /* Стили для маркированного списка во второй секции */
     font-weight: normal;
     font-size: 16px;
