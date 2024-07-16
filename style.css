@@ -38,14 +38,14 @@ header span {
 .main-title {
     /* Стили для заголовка в первой секции */
     font-size: 35px;
-    font-weight: ;
-    margin-bottom: ;
+    font-weight: bold;
+    margin-bottom: auto;
 }
 
 .main-text {
     /* Стили для текста в первой секции */
     font-size: 18px;
-    font-weight: ;
+    font-weight: normal;
 }
 
 .main-image {
@@ -57,30 +57,29 @@ header span {
 .about-section {
     /* Стили для второй секции */
     padding: 20px;
-    background-color: ;
+    background-color: white;
 }
 
 select {
     /* Стили для выпадающего списка */
-    border: ;
-    border-radius: ;
-    width: ;
-    padding: ;
-    font-weight: ;
+    border: 1px solid rgb(209, 207, 207);
+    border-radius: 3px;
+    padding: 5px 50px 5px 10px;
+    font-weight: normal;
 }
 
 .section-title {
     /* Стили для заголовков во второй секции */
-    font-weight: ;
-    font-size: ;
-    margin-bottom: ;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 .skill-list {
     /* Стили для маркированного списка во второй секции */
-    font-weight: ;
-    font-size: ;
-    padding: ;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 5px;
     list-style-image: ;
 }
 
@@ -114,7 +113,7 @@ select {
     border-radius: ;
     width: ;
     height: ;
-    background-color: ;
+    background-color: #2965F1;
     font-weight: ;
     font-size: ;
     color: rgb(255, 255, 255);
