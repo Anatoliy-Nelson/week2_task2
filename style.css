@@ -31,7 +31,7 @@ header span {
 .main-section {
     /* Стили для первой секции */
     background:rgb(251, 249, 255);
-    padding: 40px 0px;
+    padding: 60px 0px;
     min-height: inherit;
 }
 
@@ -39,7 +39,7 @@ header span {
     /* Стили для заголовка в первой секции */
     font-size: 35px;
     font-weight: bold;
-    margin-bottom: auto;
+    margin-bottom: 20px;
 }
 
 .main-text {
@@ -50,13 +50,13 @@ header span {
 
 .main-image {
     /* Стили для изображения в первой секции */
-    max-width: none;
+    max-width: 715px;
 }
 
 
 .about-section {
     /* Стили для второй секции */
-    padding: 15px;
+    padding: 100px 0px;
     background-color: white;
 }
 
@@ -72,7 +72,7 @@ select {
     /* Стили для заголовков во второй секции */
     font-weight: bold;
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .skill-list {
@@ -87,13 +87,13 @@ select {
     /* Стили для нумерованного списка во второй секции */
     font-weight: normal;
     font-size: 16px;
-    padding: 5px;
+    padding: 0px 20px;
 }
 
 .label {
     /* Стили для подписей чекбоксов */
     font-weight: normal;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .text-field {
@@ -121,7 +121,7 @@ select {
 
 .line {
     /* Стили для линии */
-    margin: 40px;
+    margin: 60px 0px;
 }
 
 table {
@@ -129,24 +129,24 @@ table {
     border: 1px solid;
     border-collapse: collapse;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 th, td {
     /* Стили для ячеек таблицы */
-    padding: 10px;
+    padding: 12px 15px;
 }
 
 footer {
     /* Стили для футера */
     background-color: #ece3fd;
-    padding: 15px 0px;
+    padding: 26px 0px;
 }
 
 .footer-link {
     /* Стили для футера */
     font-weight: normal;
-    font-size: 15px;
+    font-size: 14px;
     color: blue;
     text-decoration: none;
 }
