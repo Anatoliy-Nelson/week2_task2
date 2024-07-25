@@ -76,7 +76,7 @@ select {
     margin-bottom: 25px;
 }
 
-.skills-list {
+.skills-list-pre {
     /* Стили для маркированного списка во второй секции */
     font-weight: normal;
     font-size: 16px;
