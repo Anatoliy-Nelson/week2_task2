@@ -76,12 +76,12 @@ select {
     margin-bottom: 25px;
 }
 
-.skills-list-pre {
+.skills-list {
     /* Стили для маркированного списка во второй секции */
+    padding: 0px 20px;
     font-weight: normal;
     font-size: 16px;
-    padding: 0 20px;
-    list-style-image: "./src/arrow-right.png";
+    list-style-image: url("./src/arrow-right.png");
 }
 
 .books-list {
