@@ -80,7 +80,7 @@ select {
     /* Стили для маркированного списка во второй секции */
     font-weight: normal;
     font-size: 16px;
-    padding: 0px 20px;
+    padding: 0px;
     list-style-image: "./src/arrow-right.png";
 }
 
